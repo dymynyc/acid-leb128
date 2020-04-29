@@ -13,9 +13,6 @@
         (def len 0)
         (loop (gt i 0)
           [block
-            (log "len:")
-            (log (ints.encode len))
-            (log "\n")
             (set i (shr i 7))
             (incrs len 1)
           ])
