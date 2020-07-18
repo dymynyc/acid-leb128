@@ -60,3 +60,11 @@
     ]
   )}
 )
+
+;;though, if l is empty, it doesn't matter what f is.
+;;(fun map (f l)
+;;  (if (is_empty l) l
+;;    (cons (f (head l)) (map f (tail l)))
+;;  ))
+;;
+;;(fun [(fun (a) b) (list a)] (list b))
